@@ -1,7 +1,26 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+gradle.properties
 build
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+bin/
+
+### IntelliJ IDEA ###
 .idea
 log
 .gradle
 
-# ignore passwords, keys etc
-gradle.properties
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
